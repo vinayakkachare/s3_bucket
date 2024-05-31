@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   # Configuration options
-aws_access_key = "your-access-key-id"
-aws_secret_key = "your-secret-access-key"
+access_key = "your-access-key-id"
+secret_key = "your-secret-access-key"
  region = "ap-south-1"
 }
